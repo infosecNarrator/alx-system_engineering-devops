@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -user guillaume | grep -e 'hello' | xargs chown betty
